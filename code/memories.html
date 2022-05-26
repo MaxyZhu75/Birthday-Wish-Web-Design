@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5, user-scalable=no"> 
+ <title>Happy Birthday</title>
+ <link rel="stylesheet" href="jquery.fullPage.css">
+ <link rel="stylesheet" href="memories.css">
+</head>
+
+<body>
+<!-- Autoplay BGM after user touching -->
+<div style="display:none">
+<!-- First play silence audio -->
+<audio controls src="silence.mp3"></audio> 
+<script>
+  const audioEl = document.querySelector("audio");
+  const documentEl = document.documentElement; 
+  <!-- Listen to the user click/touch event -->
+  documentEl.addEventListener("click", myFunction);
+  documentEl.addEventListener("touchstart", myFunction);
+  function myFunction(){
+    audioEl.play();
+    audioEl.pause();
+	<!-- Background music setting -->
+    audioEl.src = "2.mp3";
+    audioEl.play();
+	<!-- Unbind the user click/touch event -->
+	documentEl.removeEventListener("click", myFunction);
+	documentEl.removeEventListener("touchstart", myFunction);
+  }
+</script>
+</div>
+<div class="bgcolor">
+  <div style="z-index:100;" id="dowebok">
+      <!--第一屏-->
+      <div class="section">
+          <div class="ly-box01">
+            <div class="ly-txt01">
+              <p class="ly-stxt01">To 小玉君：</p>
+              <p class="ly-stxt02">二十二岁生日快乐！夏天快要来啦，</p>
+              <p class="ly-stxt03">小玉也一定很期待吧。虽说夏日时而</p>
+              <p class="ly-stxt04">曝晒时而闷热，但偶有凉爽的晚风，</p>
+              <p class="ly-stxt05">那种温柔的感觉却总是很难忘呢！</p>
+            </div>
+            <div class="ly-txt02">
+              <p class="ly-stxt06">值得感激的是，二十二岁的青春才将</p>
+              <p class="ly-stxt07">步入人生的初夏，你我充满活力，每</p>
+              <p class="ly-stxt08">天怀着期盼向前，因为未来还在我们</p>
+              <p class="ly-stxt09">的手上；谁都喜爱初夏的美好，正如</p>
+              <p class="ly-stxt10">去年夏天我们相遇不久，阳光免费。</p>
+            </div>
+        </div>
+      </div>
+
+      <!--第二屏-->
+
+      <div class="section">
+          <div class="timeline"></div>
+          <div class="timepoint11"></div>
+          <div class="ly-box11">
+              <div class="ly-txt11">
+                  今天过生日的小朋友
+              </div>
+              <div class="ly-txt12">
+                 「春我部向日葵班的小玉同学」
+              </div>
+              <div class="ly-imgbox11">
+                <img class="ly-img11" src="1.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle11"></div>
+
+          <div class="ly-box12">
+              <div class="ly-txt13">
+                  蜡笔小新日记
+              </div>
+              <div class="ly-txt14">
+                 <p>某天开始，祝茂跟小玉养成了每天看</p>
+			     <p>一集蜡笔小新的习惯。小玉同学对里</p>
+			     <p>面印象最深刻的就是樱田妮妮的超真</p>
+			     <p>实扮家家酒hhhhhhhhh</p>
+				 <p>希望小玉在新的一岁里能每天保持好</p>
+				 <p>心情，好运气时刻相伴！！！像小新</p>
+				 <p>一样乐观开朗，同时勇敢自信，剩下</p>
+				 <p>的事就听灯油灭咯！~</p>
+              </div>
+          </div>
+          <div class="ly-triangle12"></div>
+      </div>
+
+      <!--第三屏-->
+
+      <div class="section">
+          <div class="timeline"></div>
+          <div class="timepoint21"></div>
+          <div class="ly-box21">
+              <div class="ly-txt21">
+                  去年夏天
+              </div>
+              <div class="ly-txt22">
+                 <p> 为了装冰镇的酸梅汤，</p>
+                 <p> 偷偷买了星巴克樱花季</p>
+                 <p> 的保温杯~</p>
+              </div>
+              <div class="ly-imgbox21">
+                <img class="ly-img21" src="2.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle21"></div>
+
+          <div class="ly-box22">
+              <div class="ly-txt23">
+                  酸梅汤
+              </div>
+              <div class="ly-txt24">
+                  <p> 买了各种原材料煮的，放</p>
+                  <p> 冰箱一晚上，超好喝！~</p>
+              </div>
+              <div class="ly-imgbox22">
+                <img class="ly-img22" src="3.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle22"></div>
+
+           <div class="ly-box23">
+              <div class="ly-txt25">
+                  徐汇滨江闲逛
+              </div>
+              <div class="ly-txt26">
+                  <p> 第二天超级热，送给小玉之后跑到徐</p>
+                  <p> 汇滨江闲逛了一下hhhhhh</p>
+              </div>
+              <div class="ly-imgbox23">
+                <img class="ly-img23" src="4.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle23"></div>
+      </div>
+
+      <!--第四屏-->
+
+      <div class="section">
+          <div class="timeline"></div>
+          <div class="timepoint31"></div>
+          <div class="ly-box31">
+              <div class="ly-txt31">
+                  「滴滴滴」
+              </div>
+              <div class="ly-txt32">
+                  <p>二十二岁，继续加速前进！！！</p>
+              </div>
+              <div class="ly-imgbox31">
+                <img class="ly-img31" src="5.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle31"></div>
+
+          <div class="ly-box32">
+              <div class="ly-txt33">
+                  偶尔也要慢下来哟
+              </div>
+              <div class="ly-txt34">
+                 <p>在龙华街边走走停停，晚风好凉快~</p>
+              </div>
+              <div class="ly-imgbox32">
+                <img class="ly-img32" src="6.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle32"></div>
+      </div>
+
+      <!--第五屏-->
+
+      <div class="section">
+          <div class="timeline"></div>
+          <div class="timepoint11"></div>
+          <div class="ly-box81">
+              <div class="ly-txt51">
+                  元气满满
+              </div>
+              <div class="ly-txt52">
+                  <p>新的一岁，相信小玉会变得更加成熟懂事，</p>
+				  <p>但依旧是活力满满的元气少女！！！~</p>
+              </div>
+              <div class="ly-imgbox81">
+                <img class="ly-img81" src="7.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle11"></div>
+
+          <div class="ly-box82">
+              <div class="ly-txt53">
+                  继续相互鼓励吧
+              </div>
+              <div class="ly-txt54">
+                 <p class="wwww1">未来还有很多目标等待一步步</p>
+                 <p class="wwww1">达成，希望生活里能充满努力</p>
+                 <p class="wwww1">过后的开朗，我们一起进步！</p>
+                 <p class="wwww1">「 预祝今年考HR证成功啦！」</p>
+              </div>
+          </div>
+          <div class="ly-triangle82"></div>
+      </div>
+
+      <!--第六屏-->
+
+      <div class="section">
+          <div class="timeline"></div>
+          <div class="timepoint21"></div>
+          <div class="ly-box61">
+              <div class="ly-txt61">
+                  2021-08
+              </div>
+              <div class="ly-txt62">
+                 <p>「 翻翻咱们的合照吧！」</p>
+                 <p>「 一起吃冰喔 」</p>
+              </div>
+              <div class="ly-imgbox61">
+                <img class="ly-img61" src="8.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle61"></div>
+
+          <div class="ly-box62">
+              <div class="ly-txt63">
+                  贵阳避暑
+              </div>
+              <div class="ly-txt64">
+                  <p>「 雨天一起逛了古镇 」</p>
+                  <p>「 下次去杭州吧！ 」</p>
+              </div>
+              <div class="ly-imgbox62">
+                <img class="ly-img62" src="9.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle62"></div>
+
+           <div class="ly-box63">
+              <div class="ly-txt65">
+                  超喜欢小玉寄到美国的礼物
+              </div>
+              <div class="ly-txt66">
+                  <p>「 任何人都猜不到，这是我们的暗号 」</p>
+              </div>
+              <div class="ly-imgbox63">
+                <img class="ly-img63" src="10.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle63"></div>
+      </div>
+	  
+	  <!--第七屏-->
+
+      <div class="section">
+          <div class="timeline"></div>
+          <div class="timepoint11"></div>
+          <div class="ly-box11">
+              <div class="ly-txt11">
+                  一切都会好起来鸭~
+              </div>
+              <div class="ly-txt72">
+                 「 正在隔离的小玉君，加油！fire！」
+              </div>
+              <div class="ly-imgbox11">
+                <img class="ly-img11" src="11.jpg">
+              </div>
+          </div>
+          <div class="ly-triangle11"></div>
+
+          <div class="ly-box12">
+              <div class="ly-txt13">
+                  再次祝愿生日快乐
+              </div>
+              <div class="ly-txt14">
+                 <p>世界往往瞬息万变，今年的生日对小</p>
+			     <p>玉来说或许有些特别；没办法收到生</p>
+			     <p>日礼物，原先想象的计划也只好搁置</p>
+			     <p>下来......</p>
+				 <p>但振作起来耐心地向前吧！相信再过</p>
+				 <p>不久小玉就能开开心心地回家啦！22</p>
+				 <p>岁还有很多惊喜与挑战；不过，夏日</p>
+				 <p>里流着汗打开的汽水才更加可口喔！</p>
+              </div>
+          </div>
+          <div class="ly-triangle12"></div>
+      </div>
+    </div>
+  <!--动态方块-->
+  <ul class="bg-bubbles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+<script src="jquery-2.1.1.min.js"></script>
+<script src="jquery.fullPage.min.js"></script>
+<!-- <script src="js/auto-play.js"></script> -->
+<script src="memories.js"></script>
+</body>
+</html>
