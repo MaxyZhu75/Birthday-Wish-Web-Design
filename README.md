@@ -1,5 +1,5 @@
 # :birthday: Birthday Wish Web Design
-This frontend website project was implemented by myself using HTML, CSS and JavaScript. Actually, you can refer to this repositories for every occasion like birthday, anniversary and so on. Only after a few simple configurations and modifications in source codes, you can send an unique and cool birthday gift to him/her.
+This frontend website project was implemented by myself using HTML, CSS and JavaScript. Actually, you can refer to this repository for every occasion like birthday, anniversary and so on. Only after a few simple configurations and modifications in source codes, you can send an unique and cool birthday gift to him/her.
 
 
 Notice that the CSS files have already covered both PC end and mobile end, so people can check out this website using either computers or mobile phones. Furthermore, browsers with recent version, like Chrome and Safari, have 'Data Saver' feature which prevents the browser from preloading and autoplaying the audio/video. However, in this project, the autoplay functionality has been implemented. Please check out the [source code](https://github.com/MaxyZhu75/Birthday-Wish-Web-Design/blob/main/code/index.html) for details.
