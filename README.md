@@ -37,7 +37,7 @@ Here I provide you some screenshots to check out how this web design looks like.
 ![screen3](https://github.com/MaxyZhu75/Birthday-Wish-Web-Design/blob/main/figures/screen3.png)
 
 
-**Log In Page:**
+**Login Page:**
 
 
 ![screen4](https://github.com/MaxyZhu75/Birthday-Wish-Web-Design/blob/main/figures/screen4.png)
