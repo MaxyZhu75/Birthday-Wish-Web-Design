@@ -8,7 +8,7 @@ Notice that the CSS files in this project have already covered both PC end and m
 ## Deployment
 
 
-My project has been deployed on the **EdLab**, which is the UMass Educational Laboratory. The EdLab resources are shared by UMass Amherst students taking Computer Science courses, and are maintained by the Computer Science Computing Facility. Considering that machines are located in the Massachusetts, if your connection is unstable, simply refresh a few times please.
+This project has been deployed on the **EdLab**, which is the UMass Educational Laboratory. The EdLab resources are shared by UMass Amherst students taking Computer Science courses, and are maintained by the Computer Science Computing Facility. Considering that machines are located in the Massachusetts, if your connection is unstable, simply refresh a few times please.
 
 **The URL for my website**: https://edlab-www.cs.umass.edu/~maoqinzhu/
 
