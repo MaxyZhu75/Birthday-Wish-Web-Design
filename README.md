@@ -64,4 +64,4 @@ Here I provide you some screenshots to check out how this web design looks like.
 ## :calling: Contact
 Thank you so much for your interests. Feel free to reach me out and I am happy to modify this frontend project further with you.
 * Email: maoqinzhu@umass.edu or zhumaxy@gmail.com
-* LinkedIn: [Max Zhu](https://www.linkedin.com/in/maoqin-zhu/)
+* LinkedIn: [Max Zhu](https://www.linkedin.com/in/maoqinzhu/)
